@@ -235,9 +235,12 @@ html, body {
   display: inline;
   float: right;
 }
-div#aboutme{
-  height: 57.4vh;
-}
 div#aboutme p a{
   text-decoration: none;
+}
+.mdl-layout__content {
+  flex: 1 0 auto;
+}
+.mdl-mini-footer {
+  flex: 0 0 auto;
 }
