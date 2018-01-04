@@ -235,6 +235,15 @@ html, body {
   display: inline;
   float: right;
 }
+.purdue-logo {
+  width: 100px;
+  height: 80px;
+  background: url('./images/purdue.png') right center;
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+  display: inline;
+  float: right;
+}
 div#aboutme p a{
   text-decoration: none;
 }
