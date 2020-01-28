@@ -50,6 +50,17 @@
     <link rel="stylesheet" href="./css/material.amber-deep_orange.min.css" />
     <link rel="stylesheet" href="./styles.css">
     <script src="./css/material.min.js"></script>
+
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ["\\[","\\]"]] 
+      }
+    };
+    </script> 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -68,6 +79,7 @@
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
           <a href="#overview" class="mdl-layout__tab is-active">Home</a>
           <a href="#publication" class="mdl-layout__tab">Publications</a>
+          <a href="#projects" class="mdl-layout__tab">Projects</a>
           <a href="https://github.com/dlguo" class="mdl-layout__tab" target="_blank">GitHub</a>
           <a href="#aboutme" class="mdl-layout__tab">About Me</a>
     </div>
@@ -140,8 +152,8 @@
                     <div class="purdue-logo"></div>
                     </h5>
                     <a href="http://purdue.edu" target="_blank">Purdue
-                      University</a>, West Lafayette, IN, USA - May 2019 (expected)<br>
-                    Major: Industrial Engineering - GPA 3.76/4.00<br>
+                      University</a>, West Lafayette, IN, USA - Dec. 2020 (expected)<br>
+                    Major: Industrial Engineering - GPA 3.81/4.00<br>
                     Thesis Advisor: <a href="https://engineering.purdue.edu/~mventresca/index.php" target="_blank">Mario Ventresca</a><br>
                 </div>
               </div>
@@ -154,13 +166,25 @@
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col" style="margin-bottom: 0px">Journals</h4>
+                <div class="section__text mdl-cell mdl-cell--12-col">
+                <ul class='mdl-list'>
+                  <li class="mdl-list__item--three-line">
+                    <h5><a href="https://www.cambridge.org/core/journals/network-science/article/examining-the-variability-in-network-populations-and-its-role-in-generative-models/164C722ECEB260B0497D3AC85119B3A4" target="_blank">Examining the variability in network populations and its role in generative models</a></h5>
+                    Viplove Arora, Dali Guo, Katherine D. Dunbar,  Mario Ventresca<br>
+                    <i>International Conference on Complex Networks and their Applications</i>, 1271-1283, 2020.
+                  </li>
+                </ul>
+                </div>
+              </div>
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <h4 class="mdl-cell mdl-cell--12-col" style="margin-bottom: 0px">Conference Proceedings</h4>
                 <div class="section__text mdl-cell mdl-cell--12-col">
                 <ul class='mdl-list'>
                   <li class="mdl-list__item--three-line">
                     <h5><a href="https://link.springer.com/chapter/10.1007/978-3-319-72150-7_103" target="_blank">Dynamic Generative Model of the Human Brain in Resting-State</a></h5>
                     Dali Guo, Viplove Arora, Enrico Amico, Joaquín Goñi, Mario Ventresca<br>
-                    <i>International Workshop on Complex Networks and their Applications</i>. Springer, Cham, 2017.
+                    <i>Network Science</i>, 1-22, 2017.
                   </li>
                 </ul>
                 </div>
@@ -175,9 +199,26 @@
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
               <a href="https://scholar.google.com/citations?user=Tc5gr1cAAAAJ" target="_blank"><li class="mdl-menu__item">
               <img src="./images/scholar_logo.png" style="height:20px;" alt="Google Scholar"></li></a>
-              <a href="https://bibbase.org/show?bib=http://www.bibsonomy.org/bib/author/dali%20guo?items=1000" target="_blank" ><li class="mdl-menu__item">
+              <!-- <a href="https://bibbase.org/show?bib=http://www.bibsonomy.org/bib/author/dali%20guo?items=1000" target="_blank" ><li class="mdl-menu__item"> -->
+              <a href="https://bibbase.org/show?bib=https%3A%2F%2Fdali-guo.com%2Fmypubs.bib" target="_blank" ><li class="mdl-menu__item">
               <img src="./images/bibbase_logo.svg" style="height:20px;" alt='BibBase'></li></a>
             </ul>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing"></section>
+        </div>
+
+        <div class="mdl-layout__tab-panel" id="projects">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col" style="margin-bottom: 0px">Network Collection Modeling</h4>
+                <div class="section__text mdl-cell mdl-cell--12-col", style="margin-top: 20px">
+                <p>
+                <img src="images/paradigm.svg", style="max-width:100%">
+                </p>
+              </div>
+              </div>
+            </div>
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing"></section>
         </div>
