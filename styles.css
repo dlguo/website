@@ -13,7 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+}
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
@@ -213,6 +222,11 @@ html, body {
 }
 .alg-icon {
   background: url('./images/icon_alg.png') center 1pt / cover;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+}
+.recom-icon {
+  background: url('./images/icon_recom.png') center 1pt / cover;
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
